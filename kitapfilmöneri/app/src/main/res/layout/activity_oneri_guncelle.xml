@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/siyah">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_marginBottom="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/txtLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="64dp"
+                android:layout_marginTop="72dp"
+                android:gravity="left"
+                android:text="@string/guncel"
+                android:textColor="@color/beyaz"
+                android:textSize="40dp"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@+id/l1"
+                android:layout_below="@+id/txtLogin"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="40dp"
+                android:weightSum="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Spinner
+                    android:layout_weight="0.9"
+                    android:id="@+id/turu"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:hint="Başlık" />
+                <ImageView
+                    android:id="@+id/turu2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.1"
+                    android:src="@drawable/bg_spinner" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/linear1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_below="@+id/l1">
+
+
+                <EditText
+                    android:drawableLeft="@drawable/fab_add"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:textSize="14dp"
+                    android:textColor="@color/beyaz"
+                    android:id="@+id/ismi"
+                    android:layout_below="@id/linear3"
+                    android:textCursorDrawable="@null"
+                    android:textColorHint="@color/beyaz"
+                    android:inputType="text"
+                    android:hint="@string/ismiy"
+                    android:backgroundTint="@color/siyah"
+                    android:maxLength="30"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/linear1"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@color/beyaz" />
+
+            <LinearLayout
+                android:id="@+id/linear2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view2"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"
+                android:orientation="horizontal"
+                android:weightSum="8">
+
+
+                <EditText
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:drawableLeft="@drawable/fab_add"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:textSize="14dp"
+                    android:textColor="@color/beyaz"
+                    android:id="@+id/yil"
+                    android:layout_below="@id/linear3"
+                    android:textCursorDrawable="@null"
+                    android:textColorHint="@color/beyaz"
+                    android:inputType="numberSigned"
+                    android:hint="@string/cikisyili"
+                    android:backgroundTint="@color/siyah"/>
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/linear2"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@color/beyaz" />
+            <LinearLayout
+                android:id="@+id/linear3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view3"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"
+                android:orientation="horizontal"
+                android:weightSum="8">
+
+
+                <EditText
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:drawableLeft="@drawable/fab_add"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:textSize="14dp"
+                    android:textColor="@color/beyaz"
+                    android:id="@+id/sayfa"
+                    android:layout_below="@id/linear3"
+                    android:textCursorDrawable="@null"
+                    android:textColorHint="@color/beyaz"
+                    android:inputType="numberSigned"
+                    android:hint="@string/sayfa"
+                    android:backgroundTint="@color/siyah"/>
+            </LinearLayout>
+            <View
+                android:id="@+id/view4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/linear3"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@color/beyaz" />
+            <LinearLayout
+                android:id="@+id/linear5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view4"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"
+                android:orientation="horizontal"
+                android:weightSum="8">
+
+
+                <EditText
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:drawableLeft="@drawable/fab_add"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:textSize="14dp"
+                    android:textColor="@color/beyaz"
+                    android:id="@+id/imdb"
+                    android:layout_below="@id/linear3"
+                    android:textCursorDrawable="@null"
+                    android:textColorHint="@color/beyaz"
+                    android:inputType="numberDecimal"
+                    android:hint="@string/imdb"
+                    android:backgroundTint="@color/siyah"/>
+            </LinearLayout>
+            <View
+                android:id="@+id/view6"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/linear5"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@color/beyaz" />
+            <LinearLayout
+                android:id="@+id/linear6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view6"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"
+                android:orientation="horizontal"
+                android:weightSum="8">
+
+
+                <EditText
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:drawableLeft="@drawable/fab_add"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:textSize="14dp"
+                    android:textColor="@color/beyaz"
+                    android:id="@+id/notlar"
+                    android:layout_below="@id/linear3"
+                    android:textCursorDrawable="@null"
+                    android:textColorHint="@color/beyaz"
+                    android:inputType="text"
+                    android:hint="@string/notlar"
+                    android:backgroundTint="@color/siyah"/>
+            </LinearLayout>
+            <Button
+                android:id="@+id/ekle"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_below="@id/linear6"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="64dp"
+                android:layout_marginRight="48dp"
+                android:background="@color/beyaz"
+                android:text="@string/guncelle"
+                android:textSize="15dp"
+                android:textAllCaps="false"
+                android:textColor="@color/siyah"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

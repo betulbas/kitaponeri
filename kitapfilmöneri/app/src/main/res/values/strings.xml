@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">♪</string>
+    <string name="tab_text_1">Tümü</string>
+    <string name="tab_text_2">Film</string>
+    <string name="tab_text_3">Kitap</string>
+    <string name="tab_text_4">Oyun</string>
+    <string name="oturumac">OTURUM AÇ</string>
+    <string name="eposta">EMail</string>
+    <string name="sifre">Şifre</string>
+    <string name="sifretekrar">Şifre Tekrar</string>
+    <string name="ad">Ad Soyad</string>
+    <string name="tel">Telefon</string>
+    <string name="girisyap">Giriş Yap</string>
+    <string name="kayitol">Kayıt Ol</string>
+    <string name="detay">DETAY</string>
+    <string name="turu">Türü</string>
+    <string name="ismiy">İsmi</string>
+    <string name="cikisyili">Çıkış Yılı</string>
+    <string name="sayfa">Sayfa Sayısı</string>
+    <string name="imdb">IMDB</string>
+    <string name="notlar">Notlar</string>
+    <string name="yenioneri">YENİ ÖNERİ</string>
+    <string name="oneriekle">Öneri Ekle</string>
+    <string name="guncelle">Güncelle</string>
+    <string name="guncel">GÜNCELLE</string>
+    <string name="profilim">PROFİLİM</string>
+    <string name="bilgililerimiguncelle">Bilgilerimi Güncelle</string>
+    <string name="oturumukapat">Oturumu Kapat</string>
+    <string name="kayitoll">KAYIT OL</string>
+    <string name="uyeol">Üye Ol</string>
+    <string name="mesaj">Seçilen Öneriyi</string>
+    <string name="sil">Sil</string>
+</resources>
